@@ -1,0 +1,126 @@
+html, body, div, span,  object, iframe, h1, h2, h3, 
+h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, 
+big, cite, code, del, dfn, em, img, ins, kbd, q,  samp, 
+small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, 
+fieldset, form, label, legend, table, caption, tbody, tfoot, 
+thead, tr, th, td { 
+    margin: 0; 
+    padding: 0; 
+    border: 0; 
+    outline: 0; 
+    vertical-align: baseline; 
+} 
+#header{
+	background-color:#314b63;
+	height:70px;
+}
+.header-logo{
+	float:left;
+	
+}
+.header-logo img{
+	height:70px;
+	
+}
+.header-nav {
+	height:100px;
+	float:right;
+	padding-top:15px;
+	list-style-type: disc;
+}
+.header-nav li{
+	display:inline-block;
+
+}
+.header-nav a:link{
+	color: white;
+}
+.header-nav a:active{
+	color:grey;
+}
+#passage-body{
+	background-color: #DCDCDC;
+	margin: 0 auto;
+	padding: 20px;
+	text-indent:2em;
+}
+.passage{
+	background-color: white;
+	margin-bottom: 20px;
+	padding: 20px;
+	box-shadow:3px 3px 3px #333;
+
+}
+.passage h2{
+	text-align: left;
+	font-family: "Microsoft Yahei";
+	font-size:26px;
+	font-weight:600;
+	text-indent:0em;
+}
+.passage h3{
+	text-align: left;
+	font-family: "Microsoft Yahei" ;
+	line-height: 40px;
+	font-size: 18px;
+	font-weight: 600;
+	color: #878586;
+	text-indent:0em;
+}
+.passage-info{
+	text-align: left;
+	font-family: "Microsoft Yahei" ;
+	line-height: 30px;
+	color: #A9A9A9;
+	font-size: 15px;
+	font-weight: 400;
+	text-indent: 0;
+}
+.picture{
+	border: solid 1px #DCDCDC;
+	margin: 20px;
+	width:800px;
+}
+.picture p{
+	text-align: center;
+}.picture img{
+	padding-left:40px;
+}
+.none{
+	list-style-type:none;
+}
+table{
+	width: 100%;
+}
+table,td,th{
+	border:1px solid grey;
+	border-collapse:collapse;
+}
+th{
+	text-align: left;
+	background-color:#DCDCDC;
+}
+.inp{
+	display:block;
+	margin:20px;
+	text-align:center;
+}
+.tip{
+	height:25px;
+	text-align: center;
+	
+}
+.buttonset input{
+	width: 95%;
+	padding: 20px;
+	background-color: #DCDCDC;
+	border-radius:5px;
+	color:white;
+}
+.arows{
+	background-color:#DCDCDC;
+}
+textarea{
+	height:100px;
+	width:600px;
+}
