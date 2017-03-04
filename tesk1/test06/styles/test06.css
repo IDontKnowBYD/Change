@@ -230,6 +230,8 @@ header div p{
 }
 #thiRight{
 	float: right;
+	position: relative;
+
 }
 #backg{
 	margin-top: 20px;
@@ -238,15 +240,98 @@ header div p{
 }
 #shadow{
 	position: absolute;
-	bottom: 32px;
-	opacity: 0.5;
+		opacity: 0.5;
+		top: 220px;
 }
 #thiRight aside{
 	width: 459px;
 	height: 364px;
 	background-color: rgba(160, 149, 142, 0.29);
 }
+#thiRight>p{
+	position: absolute;
+	top: 220px;
+	left:50px;
+	font-family: "微软雅黑";
+	font-size: 12px;
+	color: #72b16a;
 
+}
+#tec{
+	font-family: "微软雅黑";
+	font-size: 26px;
+	color: #ffffff;
+
+}
+#last {
+	padding-top: 15px;
+}
+#last ul li{
+	font-family: "宋体";
+	font-size: 16px;
+	color: #5a5b5b;
+	line-height: 40px;
+}
+.o{
+	font-family: "宋体";
+	font-size: 12px;
+	color: #5a5b5b;
+	font-style: initial;
+}
+#fr{
+	width: 260px;
+	height: 180px;
+	position: absolute;
+	left: 0px;
+	bottom: 0px;
+	background-color: #d45d5c;
+}
+#zero{
+	font-size: 110px;
+	font-family: "微软雅黑";
+	color:white;
+	display: inline-block;
+	height: 86px;
+}
+#zero p{
+	margin-top: 17px;
+	margin-left: 8px;
+	
+}
+#one{
+	display: inline-block;
+	height: 90px;
+	border-left: 2px  solid white ;
+	padding-left: 10px;
+}
+#p1{
+	font-size: 21px;
+	font-family: "黑体";
+	color:white;
+	font-style: initial;
+	margin-bottom: 0px;
+	margin-top: 4px;
+
+}
+#p2{
+	font-size: 12px;
+	font-family: "黑体";
+	color:white;
+	margin-top: 7px;
+}
+#hello{
+	width: 180px;
+	float: right;
+}
+#hello p{
+	font-size: 14px;
+	font-family: "黑体";
+	font-style: inherit;
+	line-height: 17px;
+}
+#hello p span{
+	font-size: 20px;
+	}
 
 
 
