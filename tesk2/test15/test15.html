@@ -37,7 +37,7 @@
 function getData() {
   var list=document.getElementById("source");
   var listli=list.getElementsByTagName("li");
-  var listb=listli.getElementsByTagName("b");
+  var listb=list.getElementsByTagName("b");
   var data=[];
   for(var i=0;i<listli.length;i++){
       
@@ -84,7 +84,7 @@ function sortAqiData(data) {
  * 格式见ul中的注释的部分
  */
 function render(data) {
-  var num={"一","二","三","四","五","六","七"};
+  var num=["一","二","三","四","五","六","七"];
   var res= document.getElementById("resort");
     for(var i=0;i<data.length;i++){
     res.innerHTML="<li>第"+num[i]+"名:"+data[i][0]+"空气质量:<b>"+data[i][1]+"</b></li><br/>";
@@ -102,7 +102,7 @@ function init() {
   // 在这下面给sort-btn绑定一个点击事件，点击时触发btnHandle函数
   var btn = document.getElementById("sort-btn");
  
- btn.onclick=alert("a");
+ btn.onclick=btnHandle;
 }
 
 init();
