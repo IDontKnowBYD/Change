@@ -1,0 +1,210 @@
+*{
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	box-sizing: border-box;
+}
+body,html{
+	margin:0;
+	padding:0;
+}
+body{
+	background-color: #0e0e0e;
+}
+#container{
+	margin-left: auto;
+	margin-right: auto;
+	width: 1280px;
+	height: 4554px;
+	background-color: #ffffff;
+}
+header{
+	height: 57px;
+}
+#book1{
+	margin-left: 59px;
+	margin-right: 10px;
+}
+header h1{
+	display: inline-block;
+	margin: 0px;
+	font-size: 20px;
+	position: absolute;
+	top: 17px;
+}
+header ul{
+	display: inline-block;
+	margin-top: 15px;
+	float: right;
+	margin-right: 70px;
+	margin-bottom: 0px;
+}
+header ul li{
+	display: inline-block;
+	padding-left: 20px;
+	padding-right: 20px;
+	height: 43px;
+}
+header ul li a{
+	font-size: 13px;
+	color: #8b8a8f;
+}
+header ul li:hover{
+	
+	border-bottom: 3px solid #e74e48;
+}
+header ul li a{
+	text-decoration: none;
+}
+header ul li a:hover{
+	color: #e74e48;
+}
+#putin{
+	color: #e74e48;
+	margin-left: 4px;
+}
+#fir{
+	position: relative;
+}
+#fir div{
+	position: absolute;
+	top: 230px;
+	left: 114px;
+}
+#fir div h1{
+	font-size: 60px;
+	 color: #fff;
+	 font-family: "黑体";
+	 word-spacing: -4px;
+	 margin-bottom: 0px;
+}
+#fir div p{
+	font-size: 23px;
+	 color: #fff;
+	 font-family: "黑体";
+	 margin-bottom: 60px;
+}
+#fir div a{
+	font-size: 30px;
+	padding: 10px 95px;
+	background-color: #e74e48;
+	letter-spacing: 6px;
+	color: #fff;
+	text-decoration: none;
+}
+#sec{
+	height: 253px;
+}
+#sec div{
+	display: inline-block;
+	float: left;
+    width: 318px;
+}
+#sec div p{
+	font-size: 13px;
+	color: #9e9e9e;
+	width: 323px;
+	padding-left: 83px;
+	padding-right: 83px;
+	text-align: center;
+	margin: 0px;
+	border-right: 2px solid #9e9e9e;
+}
+#srclast{
+	border-right: none!important;
+} 
+#thi{
+	height: 361px;
+	background-color: #ededed;
+	position: relative;
+}
+#thi img{
+	position: absolute;
+	left: 610px;
+	top: 100px;
+}
+#thi h1{
+	position: absolute;
+	font-size: 50px;
+	font-weight: lighter;
+	top: 200px;
+	left: 240px;
+	color: #a2a2a2;
+
+}
+#for{
+	position: relative;
+}
+#forone{
+	position: absolute;
+	top: 20px;
+	text-align: center;
+	left: 430px;
+}
+#forone h1{
+	margin-top: 30px;
+	font-weight: lighter;
+	font-size: 23px;
+	color: #fff;
+	margin-bottom: 30px;
+
+}
+#forone h1 span{
+	padding-bottom: 5px;
+	border-bottom: 2px solid #fff;
+}
+#forone p{
+
+	color: #fff;
+	font-size: 13px;
+}
+#fortwo{
+	position: absolute;
+	top: 180px;
+	left: 127px;
+}
+#fortwo select{
+	width: 236px;
+	height: 35px;
+	margin-right: 20px;
+	color: #a2a2a2;
+}
+#fortwo button{
+	width: 236px;
+	height: 35px;
+	color: #fff;
+	background-color: #bf4e48;
+	border:none;
+}
+#fiv{
+	height: 601px;
+	background-color: #f7f7f7;
+	position: relative;
+}
+#fiv>div{
+	position: absolute;
+	top: 101px;
+	left: 151px;
+}
+#fiv div div{
+	display: inline-block;
+	margin-right: 33px;
+}
+#fiv div div h1{
+	font-size: 14px;
+	font-weight: lighter;
+	text-align: center;
+}
+#fiv div div p{
+	font-size: 10px;
+	font-weight: lighter;
+	text-align: center;
+	color: #a2a2a2;
+}
+#fivlar h1{
+	font-size: 20px!important;
+	letter-spacing: 20px;
+	margin-bottom: 5px;
+}
+#fivlar p{
+	margin-top: 5px;
+}
