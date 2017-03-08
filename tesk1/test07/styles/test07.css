@@ -208,3 +208,247 @@ header ul li a:hover{
 #fivlar p{
 	margin-top: 5px;
 }
+#six{
+	position: relative;
+	height: 1088px;
+}
+#sixone {
+	position: absolute;
+	top: 100px;
+	left:352px; 
+}
+
+#sixone h1,h2,h3,h4{
+	color: #fff;
+}
+#sixone h1{
+	font-size: 45px;
+	font-weight: lighter;
+	margin-bottom: 0px;
+	height: 23px;
+}
+#sixone h2{
+	font-size: 150px;
+	margin:0px;
+	font-weight: lighter;
+	position: relative;
+	left: -120px;
+	height: 180px;
+}
+#sixone h3,h4{
+	font-size: 23px;
+	margin:8px;
+	font-weight: lighter;
+}
+#sixtwo {
+width: 423px;
+float: right;
+}
+
+#sixtwo h1{
+	text-align: center;
+	font-size: 20px;
+	font-weight: lighter;
+	margin-top: 158px;
+}
+#sixtwo h1 span{
+	color: #ed4650
+}
+#sixtwo p{
+	width: 290px;
+	font-size: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	line-height: 30px;
+	color: #aeaeae;
+	margin-bottom: 50px;
+}
+#sixtwo a{
+	display: block;
+	text-align: center;
+	margin-right: auto;
+	margin-left: auto;
+	font-size: 15px;
+	color: #eda9a8;
+	border:1px solid #eda9a8;
+	width: 108px;
+	height: 35px;
+	padding-top: 5px;
+	text-decoration: none;
+
+}
+#sixtwo img{
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 20px;
+}
+#sixthr{
+	position: relative;
+	top: -4px;
+}
+#sixthr div{
+	width: 420px;
+	height: 523px;
+	float: left;
+}
+#red{
+	position: relative;
+	background-color: #e8504f;
+}
+#red div{
+	position: absolute;
+	left: 129px;
+	top: 170px;
+	width:170px;
+	height: 148px; 
+}
+#red div h1{
+	color: #fff;
+	text-align: center;
+	font-size: 20px;
+	font-weight: lighter;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+#red div a{
+	display: block;
+	text-align: center;
+	font-size: 22px;
+	color: #fff;
+	text-decoration: none;
+	border:1px solid #fff;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+#red div span{
+	color: #fff;
+	display: block;
+	text-align: center;
+	font-size: 30px;
+}
+#white{
+	position: relative;
+}
+#white div{
+	position: absolute;
+	left: 129px;
+	top: 170px;
+	width:170px;
+	height: 148px; 
+}
+#white div h1{
+	text-align: center;
+	font-size: 20px;
+	font-weight: lighter;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+#white div a{
+	display: block;
+	text-align: center;
+	font-size: 22px;
+	text-decoration: none;
+	border:1px solid #e8504f;
+	padding-top: 5px;
+	color: #e8504f;
+	padding-bottom: 5px;
+}
+
+#white div span{
+	display: block;
+	text-align: center;
+	font-size: 30px;
+	color: #adadad;
+}
+#sixthr img{
+	float: right;
+}
+#sevone {
+	height: 302px;
+}
+
+#sevone h1,span,p{
+	text-align: center;
+}
+#sevone h1{
+	font-size: 20px;
+	font-weight: lighter;
+	padding-top: 107px;
+	margin-bottom: 0px;
+	margin-top: 0px;
+}
+#sevone span{
+	font-size: 40px;
+	color: #e8504f;
+	display: block;
+	text-align: center;
+	position: relative;
+	top: -16px;
+}
+#sevone p{
+	color: #a6a6a6;
+	font-size: 10px;
+	position: relative;
+	top: -30px;
+	margin-top: 0px;
+}
+#sevtwo{
+	width: 296px;
+	height: 281px;
+	margin-left: 137px;
+	display: inline-block;
+}
+#sevtwo h1{
+	font-size: 13px;
+	color: #827e7f;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+#sevtwo p{
+	font-size: 1px;
+	color: #a5a5a5;
+	text-align: left;
+	font-weight: lighter;
+	letter-spacing:3px; 
+}
+#sevtwo a{
+	font-size: 5px;
+	display: block;
+	text-align: right;
+	color: #827e7f;
+	text-decoration: none;
+}
+#sevthr{
+	width: 660px;
+	float: right;
+	margin-right: 80px;
+	
+
+
+}
+#sevthr input{
+	width: 309px;
+	height: 37px;
+	margin:20px 14px 0 0 ; 
+	background-color: #ededef;
+	border:none;
+	color: #6e6c6f;
+	padding-left: 10px;
+	font-size: 10px;
+}
+#sevthr textarea{
+	width: 638px;
+	height: 140px;
+	margin-top: 24px;
+	background-color: #ededef;
+	border:none;
+	color: #6e6c6f;
+	padding-left: 10px;
+	font-size: 10px;
+}
+#putin{
+	width: 638px!important;
+	color:#323234!important;
+}
