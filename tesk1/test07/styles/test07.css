@@ -365,6 +365,9 @@ float: right;
 #sixthr img{
 	float: right;
 }
+#sev{
+	height: 749px;
+}
 #sevone {
 	height: 302px;
 }
@@ -451,4 +454,74 @@ float: right;
 #putin{
 	width: 638px!important;
 	color:#323234!important;
+}
+#eig{
+	height: 359px;
+	background-color: #33363f;
+}#eig h1,p{
+	text-align: center;
+	position: relative;
+	top: 90px;
+}
+#eig h1{
+	font-size: 20px;
+	color: #fff;
+	font-weight: lighter;
+	margin-bottom: 0px;
+}
+#eig p{
+	font-size: 10px;
+	color: #fff;
+	font-weight: lighter;
+	margin-top: 6px;
+	letter-spacing: 2.4px;
+}
+#eig div{
+	text-align: center;
+	position: relative;
+	top: 105px;
+}
+#email{
+	width: 430px;
+	height: 38px;
+	color: #cacaca;
+}
+#put{
+	width: 80px;
+	height: 38px;
+	color: #fff;
+	background-color: #73737b;
+	border:none;
+	font-size: 15px;
+	letter-spacing: 6px;
+	padding-left: 10px;
+	position: relative;
+	top: 1.8px;
+	left: -5px;
+}
+#eig div a img{
+	margin-top: 33px;
+	margin-left: 20px;
+	margin-right: 10px;
+}
+footer{
+	height: 56px;
+	background-color: #30303a;
+}
+footer span{
+	color: #fff;
+	font-size: 10px;
+	margin-left: 60px;
+	display: inline-block;
+	margin-top: 20px;
+
+}
+footer a{
+	float: right;
+	display: inline-block;
+	margin-top: 20px;
+	margin-right: 60px;
+	color: #fff;
+	text-decoration: none;
+	font-size: 10px;
 }
