@@ -1,0 +1,42 @@
+*{
+	font-family: "黑体";
+	margin:0px;
+	padding:0px;
+}
+
+#c1,#c2,#c3,#c4,#c5{
+	margin-left: 50px;
+	font-size: 12px;
+	color: #a6a6a6;
+}
+#t1,#t2,#t3,#t4,#t5{
+    width: 300px;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid  #a6a6a6;
+    padding-left: 10px;
+    
+}
+#check{
+    background-color: #2F79BA;
+    border: 2px solid white;
+    color: white;
+    border-radius: 10px;
+    width: 80px;
+  	height: 46px;
+    float: right;
+}
+.visible{
+    display: table-row;
+}
+.right{
+    color: green;
+    display: table-row;
+}
+.wrong{
+    color: red;
+    display: table-row;
+}
+.hint{
+     display: none;
+}
