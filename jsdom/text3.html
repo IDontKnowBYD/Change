@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+	<meta charset = "utf-8"/>
+	<title>Image Gallert</title>
+	<link rel = "stylesheet" href = "styles/layout.css" media="screen"/>
+</head>
+<body>
+<h1>Snapshots</h1>
+<ul id = "imagegallery">
+<li>
+<a href = "image/fireworks.jpg"  
+title = "A firework display"><img src = "image/fireworks.jpg"></la>
+</li>
+<li>
+<a href = "image/coffee.jpg" onclick = "showPic(this);return false;" 
+title = "A cup of black coffee">Coffee</a>
+</li>
+<li>
+<a href = "image/rose.jpg" onclick = "showPic(this);return false;" 
+title = "A red ,red rose">Rose</a>
+</li>
+<li>
+<a href = "image/bigben.jpg" onclick = "showPic(this);return false;" 
+title = "The famous clock">Big Ben</a>
+</li>
+<img id = "placeholder" src = "image/placeholder.jpeg" alt="my image gallery"/>
+<p id = "description">Choose an image.</p>
+<script type = "text/javascript" src = "scripts/showPic.js">
+window.onload = countBodyChildren;</script>
+</body>
+</html>
