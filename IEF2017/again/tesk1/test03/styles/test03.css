@@ -1,0 +1,32 @@
+body div{
+	padding: 20px;
+	border: 1px solid #999;
+	background-color: #eee;
+	overflow: auto;
+}
+div .left{
+	float: left;
+	width: 200px;
+	margin-right: 20px;
+	background-color: #fff;
+}
+div .right{
+	float: right;
+	width: 120px;
+	margin-left: 20px;
+	background-color: #fff;
+}
+div .center{
+	height: 300px;
+	background-color: #fff;
+}
+.pic{
+	width: 80px;
+	height: 80px;
+}
+.right div{
+	margin-bottom: 20px;
+}
+.right div:last-child{
+	margin-bottom: 0;
+}
