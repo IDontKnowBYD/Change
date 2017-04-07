@@ -1,0 +1,22 @@
+label{
+	font: 20px "Microsoft-Yahei" ;
+}
+input[type = text]{
+	width: 200px;
+	height: 30px;
+	border: 1px solid #cccccc;
+	border-radius: 7px;
+}
+input[type = button]{
+	height: 33px;
+	width: 60px;
+	color: #fff;
+	background-color:  #2e78b9;
+	border-style: none;
+	border-radius: 7px;
+}
+p{
+	font: 14px "Microsoft-Yahei";
+	color: #cccccc;
+	margin: 0 0 0 50px ;
+}
