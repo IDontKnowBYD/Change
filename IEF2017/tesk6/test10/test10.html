@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>test10</title>
+</head>
+<body>
+	<input type="text" name="phone">	
+	<input type="button" name="check" value="查看" onclick="che()">
+	<script type="text/javascript">
+		
+		
+		function che(){
+			var num = document.getElementsByTagName('input')[0];
+			var patt = /\b\d{11}\b/;
+			var flag = patt.test(num.value);
+			if (flag) {
+				alert("right");
+			}
+			else{
+				alert("wrong");
+			}
+		}
+	</script>
+</body>
+</html>
