@@ -1,0 +1,148 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	width: 980px;
+	height: 1396px;
+	font-family: "Microsoft-Yahei";
+}
+#container{
+	width: 892px;
+	height: 1396px;
+	margin: 0 auto;
+}
+header{
+	border-bottom: 2px solid #938e8c;
+	overflow: auto;
+}
+header span p,
+		p{
+			font: 12px "黑体";
+		}
+header span{
+	float: left;
+	width: 110px;
+	height: 61px;
+	color: #fff;
+	background-color: #d45d5c;
+}
+header>p{
+	float: right;
+	margin-top: 43px;
+	color: #d45d5c;
+}
+header span p{
+	margin: 43px 0 0 3px;
+}
+body>div>div{
+	margin-top: 35px;
+}
+#green_part{
+	float: left;
+	width: 191px;
+	height: 301px;
+	background-color: #4caf50;
+	opacity: 0.3;
+}
+#red_part{
+	float: right;
+	width: 191px;
+	height: 301px;
+	background-color: #f44336;
+	opacity: 0.3;
+}
+#first_part div img{
+	display: block;
+}
+#first_pic{
+	display: inline-block;
+	width: 641px;
+	height: 301px;
+	background: url(task_1_6_1.jpg);
+}
+#first_title{
+	float: right;
+	width: 203px;
+	border-top: 2px solid #cc8091;	
+}
+#first_title h1,
+			 h2{
+	font-size: 18px;
+	font-weight: 300;
+	border-bottom: 1px solid #000;
+}
+#first_title h1{
+	margin-right: 130px;
+}
+#first_title h2{
+	margin-right: 70px;
+}
+#first_title h1:first-letter,h2:first-letter{
+	font-size: 24px;
+}
+#first_title>span{
+	font-size: 116px;
+	color: #75b86b;
+	font-weight: 600;
+}
+#first_title div{
+	color: #cc8091;
+}
+#first_title div span{
+	font-size: 55px;
+}
+#first_title div h3{
+	
+	font-size: 21px;
+}
+#first_title div p{
+
+	font-size: 12px;
+}
+#first_title div div{
+	float: right;
+	margin: 20px 20px 0 0 ;
+}
+#second_part{
+	overflow: auto;
+	margin-top: 20px;
+}
+#second_part div{
+	display: inline-block;
+	float: left;
+	width: 220px;
+	
+}
+#second_part div p{
+	margin: 10px 25px 0 0;
+	font: 12px "宋体";
+	color: #767777;
+	line-height: 16px;
+	
+}
+#second_part div h2{
+	display: inline-block; 
+	font-size: 16px;
+	font-weight: 500;
+	border-bottom: 1px solid;
+}
+#second_part div:nth-child(1) h2{
+	color: #418c59;
+}
+#second_part div:nth-child(2) h2{
+	color: #d2994f;
+}
+#second_part div:nth-child(3) h2{
+	color: #cc7680;
+}
+#second_part div:nth-child(3) ul{
+	margin-top: 22px;
+	font-size: 12px;
+	color: #231815;
+	opacity: 0.7;
+	list-style-type: none;
+}
+#second_part div:nth-child(3) ul span{
+	color: #cd4a48;
+}
