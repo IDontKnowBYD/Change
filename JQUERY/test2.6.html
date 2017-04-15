@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>test1.3.2</title>
+	<style type="text/css">
+		
+	</style>
+	<script type="text/javascript" src="scripts/jquery-3.2.1.js"></script>
+	<script type="text/javascript">
+	$(function(){
+		var $category = $("ul li:gt(5):not(:last)");
+		$category.hide();
+
+		var $toggleBtn = $("div.showmore > a");
+		$toggleBtn.click(function(){
+			if ($category.is(':visible')) {
+				$category.hide();
+				$(this).find('span')
+				.text("显示全部品牌");
+			}else{
+				$category.show();
+				$(this).find('span')
+					.text("精简显示品牌");
+				$('ul li').filter(":contains('aa'),:contains('bb')")
+					.addClass("promoted");	
+			}
+			return false;
+		});
+	});
+	</script>
+</head>
+<body>
+	<div>
+		<ul>
+			<li><a href="#">aa</a><i>(aa)</i></li>
+			<li><a href="#">啊啊</a><i>(aa)</i></li>
+			<li><a href="#">啊啊</a><i>(aa)</i></li>
+			<li><a href="#">bb</a><i>(aa)</i></li>
+			<li><a href="#">啊啊</a><i>(aa)</i></li>
+			<li><a href="#">啊啊</a><i>(aa)</i></li>
+			<li><a href="#">啊啊</a><i>(aa)</i></li>
+			<li><a href="#">啊啊</a><i>(aa)</i></li>
+			<li><a href="#">啊啊</a><i>(aa)</i></li>
+			<li><a href="#">啊啊</a><i>(aa)</i></li>
+			<li><a href="#">啊啊</a><i>(aa)</i></li>
+			<li><a href="#">啊啊</a><i>(aa)</i></li>
+			<li><a href="#">啊啊</a><i>(aa)</i></li>
+			<li><a href="#">啊啊其他</a><i>(aa)</i></li>
+		</ul>
+		<div class="showmore">
+			<a href="more.html"><span>显示全部品牌</span></a>
+		</div>
+	</div>
+	
+</body>
+</html>
