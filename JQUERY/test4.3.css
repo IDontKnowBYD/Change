@@ -1,0 +1,41 @@
+.v_show{
+	width: 400px;
+	height: 270px;
+	border: 1px solid #000;
+	overflow: hidden;
+}
+.cartoon{
+	display: inline-block;
+}
+.v_caption{
+	background-color: #4285f4;
+}
+.highlight_tip{
+	display: inline-block;
+}
+.change_btn{
+	display: inline-block;
+}
+.v_caption em{
+	float: right;
+	line-height: 71px;
+}
+
+.v_content_list ul {
+	position: relative;
+	width: 2000px;
+	padding-left: 22px;
+}
+.v_content_list ul li{
+	margin-right: 25px;
+	float: left;
+	list-style-type: none;
+}
+.v_content_list ul li a img{
+	width: 100px;
+	height: 80px;	
+	border: 1px solid #000;
+}
+.current{
+	color: #fff;
+}
