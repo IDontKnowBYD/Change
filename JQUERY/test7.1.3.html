@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>test7.1.3</title>
+	<script type="text/javascript" src="scripts/jquery-3.2.1.js"></script>
+	<script type="text/javascript" src="scripts/jquery.validate.js"></script>
+	<script type="text/javascript" src="scripts/jquery.metadata.js"></script>
+	<script type="text/javascript" src="scripts/jquery.validate.messages_cn.js"></script>
+	<script type="text/javascript">
+		$(function(){
+			$('#commentForm').validate({
+				rules: {
+					username:{
+						required: 'aaaaa',
+						minlength: 2
+					}
+				}
+			});
+		});
+	</script>
+</head>
+<body>
+	<form action="#" id="commentForm">
+		<filedset>
+			<p>
+				<label></label>
+<input type="" name="username" />
+				<input type="submit" name="">
+			</p>
+		</filedset>
+	</form>
+</body>
+</html>

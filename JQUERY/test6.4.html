@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>test6.4</title>
+	<script type="text/javascript" src="scripts/jquery-3.2.1.js"></script>
+	<script type="text/javascript">
+	$(function(){
+		$('#send').click(function() {
+			$('#resText').load('test.html p');
+		});
+	});
+		
+	</script>
+</head>
+<body>
+	<input type="button" value="Ajax提交" id="send" ">
+	<div id="resText"></div>
+	
+</body>
+</html>
