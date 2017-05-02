@@ -1,0 +1,38 @@
+table{
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+div,td{
+	margin: 0px;
+    padding: 0px;
+}
+td{
+    width: 40px;
+    height: 40px;
+    text-align: center;
+}
+tr:nth-child(n+2)>td:nth-child(n+2){
+    border: 1px solid #cccccc;
+}
+div{
+	background-color: #fe0000;
+	position: relative;
+}
+.top{
+	height: 30px;
+	border-top: 10px solid #0101ff;
+}
+.bottom{
+	height: 30px;
+	border-bottom: 10px solid #0101ff;
+}
+.left{
+	width: 30px;
+	height: 40px;
+	border-left: 10px solid #0101ff;
+}
+.right{
+	width: 30px;
+	height: 40px;
+	border-right: 10px solid #0101ff;
+}
