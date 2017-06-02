@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>test01</title>
+	<script type="text/javascript" src="three.js"></script>
+</head>
+<body onload="init()">
+	<canvas id="mainCanvas" width="800px" height="600px" ></canvas>
+	<script type="text/javascript">
+		function init(){
+			 // renderer
+    		var renderer = new THREE.WebGLRenderer({
+        		canvas: document.getElementById('mainCanvas')
+    		});
+    		renderer.setClearColor(0x666666); // black
+
+   			 // scene
+   			 var scene = new THREE.Scene();
+
+    		// camera
+   			 var camera = new THREE.PerspectiveCamera(45, 4 / 3, 1, 1000);
+   			 camera.position.set(5, 5, 5);
+   			 camera.lookAt(new THREE.Vector3( 0, 0, 0 ));
+   			 scene.add(camera);
+
+    		// a cube in the scene
+   		 	
+    		 var cube = new THREE.Mesh(new THREE.CubeGeometry(5, 2, 2),
+       			 new THREE.MeshBasicMaterial({
+            	color: 0xcccccc
+       		 })
+    		);
+   			 scene.add(cube);
+
+   			 var tor = createTours(-1.5, -1, 1);
+   			 scene.add(tor);
+
+   			 var tor = createTours(1.5, -1, 1);
+   			 scene.add(tor);
+
+   			 var tor = createTours(1.5, -1, -1);
+   			 scene.add(tor);
+
+   			 var tor = createTours(-1.5, -1, -1);
+   			 scene.add(tor);
+   			 // render
+   			 renderer.render(scene, camera);
+		
+		}
+   		function createTours(x, y, z){
+    		var tor = new THREE.Mesh(new THREE.TorusGeometry(0.8, 0.2, 100,100),
+           		 new THREE.MeshBasicMaterial({
+           		     color: 0x999999
+            		})
+  		  	);
+
+  		  	tor.position.x = x;
+  		  	tor.position.y = y;
+  		  	tor.position.z = z;
+
+  		  	return tor;
+  		  }
+    		
+
+	</script>
+</body>
+</html>
