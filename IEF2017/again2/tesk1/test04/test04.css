@@ -1,0 +1,25 @@
+.container{
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin: -100px 0 0 -200px;
+	width: 400px;
+	height: 200px;
+	background-color: #ccc;
+}
+div .left{
+	width: 50px;
+	height: 50px;
+
+	border-radius: 0 0 50px 0;
+	background-color: #fc0;
+}
+div .right{
+	width: 50px;
+	height: 50px;
+	position: absolute;
+	right: 0;
+	bottom: 0; 
+	border-radius: 50px 0 0 0;
+	background-color: #fc0;
+}
