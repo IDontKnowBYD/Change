@@ -1,0 +1,19 @@
+*{
+	margin-bottom: 10px;
+}
+label{
+	margin-right: 100px;
+}
+#select1{
+	width: 100px;
+	margin-right: 20px;
+}
+#select2{
+	width: 140px;
+}
+#outSchool{
+	display: none;
+}
+#outSchool input{
+	width: 230px;
+}
