@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>test01</title>
+</head>
+<body>
+	<div id="example-1">
+		<button v-on:click="counter += 1">增加1</button>
+		<p>这个按钮被点击了 {{ counter }} 次。</p>
+	</div>
+	
+	<div id="example-2">
+  		<button v-on:click="greet">Greet</button>
+	</div>
+
+	<div id="example-3">
+		<button v-on:click="say('hi')">sayHi</button>
+		<button v-on:click="say('helllo')">sayHello</button>
+	</div>
+	<script src="https://unpkg.com/vue"></script>
+	<script type="text/javascript" src="test01.js"></script>
+</body>
+</html>
