@@ -14,7 +14,7 @@ Vue.component('my-com', {
 	template: '<div>{{ currentValue}}<button @click="handleClick">+1</button></div>',
 	data () {
 		return {
-			currentValue: 0
+			currentValue: this.value
 		}
 	},
 	methods: {
