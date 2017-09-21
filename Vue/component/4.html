@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>4</title>
+    <script src="https://unpkg.com/vue"></script>
+</head>
+<body>
+    <div id="app">
+        {{ value }}
+        <my-component v-model='value'></my-component>
+        <button @click='handlemix'>-1</button>
+    </div>   
+    <script>
+        Vue.component('my-component',{
+            props:{ 
+                value: Number
+            },
+            template: '<div>{{ currentValue }}<button @click="handleClick">+1</button></div>',
+            data () {
+                return {
+                    currentValue: this.value
+                }
+            },
+            watch: {
+                value (val) { 
+                    this.currentValue = val
+                }
+            },
+            methods: {
+                handleClick () {
+                    this.currentValue++;
+                    this.$emit('input',this.currentValue);
+                }
+            }
+        })
+    new Vue({
+        el: '#app',
+        data: {
+            value: 1
+        },
+        methods: {
+            handlemix () {
+                this.value --;
+            }
+        }
+    })
+    </script>
+</body>
+</html>
