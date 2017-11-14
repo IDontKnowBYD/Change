@@ -60,7 +60,7 @@ Vue.component('input-number',{
             var min = this.min;
 
             if(isValueNumber(val)) {
-                val = NUmber(val);
+                val = Number(val);
                 this.currentValue = val;
 
                 if(val >max) {
