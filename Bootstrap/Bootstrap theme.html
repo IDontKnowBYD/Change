@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+  <title>Bootstrap 101 Template</title>
+
+  <!-- Bootstrap -->
+  <link href="node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
+      <script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-head">
+          <a href="#" class="navbar-brand">Bootstrap theme</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li class="active">
+              <a href="#">Home</a>
+            </li>
+            <li>
+              <a href="#">About</a>
+            </li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                Dropdown
+                <span class="caret"></span>
+              </a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a href="#">Action</a>
+                </li>
+                <li role="separator" class="divider"></li>
+                <li class="dropdown-header">Nav header</li>
+                <li>
+                  <a href="#">Separated link</a>
+                </li>
+                <li></li>
+                <li></li>
+              </ul>
+            </li>
+          </ul> 
+        </div>
+      </div>
+    </nav>
+    <div class="container theme-showcase" role="main">
+      <div class="jumbotron">
+        <h1>Theme example</h1>
+          <p>
+            This is atemplate
+          </p>
+      </div>
+      <div class="page-header">
+        <h1>Buttons</h1>
+      </div>
+      <p>
+        <button type="button" class="btn btn-lg btn-default">Default</button>
+      </p>
+      <div class="page-header">
+        <div class="row">
+          <table class="table">
+            <thead>
+              <tr>
+                <th>#</th>
+                <th>1</th>
+                <th>2</th>
+              </tr> 
+            </thead>
+            <tbody>
+              <tr>
+                <th>1</th>
+                <th>a</th>
+                <th>b</th>
+              </tr>
+              <tr>
+                <th>2</th>
+                <th>a</th>
+                <th>b</th>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+      <div class="page-header">
+        <h1>Thumbnails</h1>
+      </div>
+      <img src="#" alt="200x200" data-src="holder.js/200x200" class="img-thumbnail" style="width: 200px; height: 200px;" data-holdered="true">
+      <div class="page-header">
+        <h1>Labels</h1>
+      </div>
+      <h1>
+        <span class="label label-default">Default</span>
+      </h1>
+      <div class="class-holder">
+        <h1>Badges</h1>
+      </div>
+      <a href="#">
+        Inbox
+        <span class="badge">42</span>
+      </a>
+      <div class="page-header">
+        <h1>Dropdown menus</h1>
+      </div>
+      
+      <div class="dropdown theme-dropdown clearfix">
+        <a id="dropdownMenu1" href="#" class="sr-only dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+          Dropdown
+          <span class="caret"></span>
+        </a>
+        <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+          <li>
+            <a href="#" class="active">Another</a>
+          </li>
+          <li role="separator" class="divider"></li>
+          <li>
+            <a href="#">Separated link</a>
+          </li>
+        </ul>
+      </div>
+      <div class="page-header">
+        <h1>Navs</h1>
+      </div>
+      <ul class="nav nav-tabs" role="tablist">
+        <li role="presentation" class="active">
+          <a href="#">Home</a>
+        </li>
+        <li role="presentation">
+          <a href="#">Profile</a>
+        </li>
+        <li role="presentation">
+          <a href="#">Message</a>
+        </li>
+      </ul>
+      <div class="page-header">
+        <h1>Alerts</h1>
+      </div>
+      <div class="alert alert-success" role="alert">
+        <strong>Well dwon</strong>
+        You successfully read this important alert message
+      </div>
+      <div class="page-header">
+        <h1>Progress bars</h1>
+      </div>
+      <div class="progress">
+        <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%">
+          <span class="sr-only">60% Complete</span>
+        </div>
+      </div>
+      <div class="page-header">
+        <h1>List groups</h1>
+      </div>
+      <ul class="list-group">
+        <li class="list-group-item">1</li>
+        <li class="list-group-item">2</li>
+        <li class="list-group-item">3</li>
+        <li class="list-group-item">4</li>
+        <li class="list-group-item">5</li>
+      </ul>
+      <div class="page-header">
+        <h1>Panels</h1>
+      </div>
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h3 class="panel-title">Panel title</h3>
+        </div>
+        <div class="panel-body">
+          Panel content
+        </div>
+      </div>
+      <div class="page-header">
+        <h1>Wells</h1>
+      </div>
+      <div class="well">
+        <p>aaaaaaaaa</p>
+      </div>
+      <div class="page-header">
+        <h1>Carousel</h1>
+      </div>
+      <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carousel-example-generic" data-slide-to="0"></li>
+          <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+          <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner" role="listbox">
+          <div class="item">
+            <img src="#" alt="#">
+          </div>
+          <div class="item">
+            <img src="#" alt="#">
+          </div>
+          <div class="item">
+            <img src="#" alt="#">
+          </div>
+        </div>
+        <a href="#carousel-example-generic" class="left canousel-control" role="button" data-slide="prev">
+          <span class="gluphicon gluphicon-chevron-left" aria-hidden="true"></span> 
+          <span class="sr-only">Previous</span>
+        </a>
+        <a href="#carousel-example-generic" class="right canousel-control" role="button" data-slide="next">
+          <span class="gluphicon gluphicon-chevron-right" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </div>
+    
+  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+  <script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>
+  <!-- Include all compiled plugins (below), or include individual files as needed -->
+  <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+</body>
+
+</html>
