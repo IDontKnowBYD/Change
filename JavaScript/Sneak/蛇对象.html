@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Document</title>
+  <style>
+    .box {
+      width: 600px;
+      height: 600px;
+      margin: 0 auto;
+      background-color: aquamarine;
+      position: relative;
+      overflow: hidden;
+    }
+  </style>
+  <script src="./Food.js"></script>
+  <script src="./Snake.js"></script>
+</head>
+
+<body>
+  <div class="box">
+
+  </div>
+  <script>
+    var box = document.querySelector('.box');
+
+    var food = new Food();
+    food.render(box);
+
+    
+    var snake = new Snake();    
+    snake.render(box);
+  
+     var timerId = setInterval(function () {
+        snake.move(box, food);
+        if(snake.isDead(box)){
+          clearInterval(timerId);
+        }
+      }, 200);
+
+    document.onkeyup = function (e) {
+      var key = e.keyCode;
+      switch (key) {
+        case 37:
+          if (snake.direction != 'right') {
+            snake.direction = 'left';
+          }
+          break;
+        case 38:
+          if (snake.direction != 'down') {
+            snake.direction = 'up';
+          }
+          break;
+        case 39:
+          if (snake.direction != 'left') {
+            snake.direction = 'right';
+          }
+          break;
+        case 40:
+          if (snake.direction != 'up') {
+            snake.direction = 'down';
+          }
+          break;
+      }
+    }
+  </script>
+</body>
+
+</html>
