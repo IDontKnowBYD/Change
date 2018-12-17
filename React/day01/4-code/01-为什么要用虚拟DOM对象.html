@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+
+<body>
+  <ul id="list">
+    <li class="item">Item 1</li>
+    <li class="item">Item 2</li>
+    <li class="item">Item 3</li>
+  </ul>
+
+  <script>
+    // 为什么不使用真DOM对象，而要额外的创建一个虚拟DOM对象呢???
+    //  1 因为真DOM对象中有很多很多的属性，而这些属性绝大部分与页面长什么样无关
+    //  2 react 中是通过 diff 算法来实现视图更新的，原理：将数据更新前的对象与数据更新后的对象进行比较，从而找到差异的地方，只将差异的地方更新到页面中。
+    //    正是因为这个原因，所以，如果使用原生的DOM对象，需要比较的内容就太多了，无法实现高效更新
+
+    const list = document.getElementById('list')
+
+    let count = 0, str = ''
+    for (let k in list) {
+      count++
+      str += k + ' '
+    }
+
+    console.log(count, str);
+  </script>
+</body>
+
+</html>

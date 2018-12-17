@@ -1,0 +1,9 @@
+.container {
+  color: blue;
+  font-size: 40px;
+  background-color: #abc;
+}
+
+div p {
+  color: #fff;
+}

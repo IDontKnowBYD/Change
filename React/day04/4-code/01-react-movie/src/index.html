@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!-- 
+    作用：解决 豆瓣API电影详情中演员图片不展示的问题
+    原因：豆瓣API为了图片的安全添加了一个防盗链的处理, 因为浏览器会自动在请求都中添加一个 referrer 请求头， 豆瓣API会根据这个请求头来判断是否允许你的网站展示该图片
+    如果没有 referrer 这个请求头，豆瓣会把图片给我们使用
+    如果有 referrer 这个请求头，并且这个值（我们网站的域名）不在豆瓣允许的范围内，那么，豆瓣就不会把图片给我们使用
+
+    添加后请求头中有： Referrer Policy:  no-referrer
+    没有添加，请求头为： Referrer Policy: no-referrer-when-downgrade
+  -->
+  <meta name="referrer" content="never">
+  <title>豆瓣电影案例 | 25</title>
+</head>
+
+<body>
+  <div id="app"></div>
+</body>
+
+</html>

@@ -1,0 +1,16 @@
+.logo {
+  float: left;
+  width: 120px;
+  height: 31px;
+  border-radius: 5px;
+  margin: 16px 24px 16px 0;
+  background-color: #fff;
+  background-image: url(../imgs/logo.png);
+  background-size: cover;
+}
+
+#app,
+.layout,
+.movie-content {
+  height: 100%;
+}

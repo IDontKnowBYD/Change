@@ -1,0 +1,28 @@
+#app,
+.layout {
+  height: 100%;
+  background-color: #fff;
+}
+
+.logo {
+  width: 120px;
+  height: 31px;
+  background: #fff;
+  background-image: url(../imgs/logo.png);
+  background-size: cover;
+  margin: 16px 24px 16px 0;
+  float: left;
+  border-radius: 5px;
+}
+
+.ant-layout {
+  background-color: #fff;
+}
+
+.ant-card-bordered .ant-card-body {
+  padding: 0;
+}
+
+p {
+  margin-bottom: 0;
+}

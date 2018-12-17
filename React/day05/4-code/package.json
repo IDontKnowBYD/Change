@@ -1,0 +1,15 @@
+{
+  "name": "4-code",
+  "version": "1.0.0",
+  "description": "",
+  "main": "02-redux中的核心概念.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "redux": "^4.0.1"
+  }
+}
